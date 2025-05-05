@@ -1,0 +1,261 @@
+*{
+    --background-escuro:rgb(40, 40, 41);
+    --backgroudn-branco:#ffffff;
+    --backgroudn-laranja:#f38506;
+    --backgroudn-cor__de__pele:rgba(222, 187, 238, 0.986);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+   
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* cabeçario */
+
+header{
+background: var(--background-escuro);
+height: 40px;
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+
+header a,button{
+    color: var(--backgroudn-branco);
+    font-size: large;
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: var(--backgroudn-laranja);
+}
+
+
+/*Primeira foto */
+
+.main__section{
+    background-image:url(file/pexels-narda-yescas-1566837.jpg) ;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+   text-align: center;   
+   color: var(--backgroudn-branco);
+   font-size: larger;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+
+
+.main__section button{
+    background: var(--backgroudn-laranja);
+    font-size: large;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+}
+
+
+.main__section button:hover{
+    color: var(--backgroudn-laranja);
+    background: var(--background-escuro);
+}
+
+.contai_cardapio {
+   display: block;
+   text-align: center;
+ }
+
+/*Conteudo principal do site*/
+
+.contai{
+
+ display: block;
+ height: auto;
+ width: 100%;
+ 
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.pizza_container {
+    background: var(--backgroudn-cor__de__pele);
+    width: 400px;
+    height: 400px; /* altura fixa */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: larger;   
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+}
+
+.pizza_container img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+.pizza_container p:nth-child(1){
+    font-weight: bold;
+}
+
+
+.pizza_container--text_div, 
+.pizza_container p {
+    padding-top: 5px;
+    margin: 0;
+    text-align: left;
+}
+
+/*Sobre nos*/
+
+
+
+.sobre__nos{
+background-image: url(file/pexels-eneida-nieves-905847.jpg);
+background-size: cover;
+object-position: bottom;
+height: 20vh;
+
+
+}
+
+
+.sobre__nos--text{
+    display: block;
+}
+
+.sobre__nos--text h2,p{
+    
+    text-align: center;
+}
+
+/*Contato*/
+
+.Contato{
+padding: 10px;
+
+}
+
+.Contato_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Contato_text h3{
+   font-size: 30px;
+    
+}
+
+.Contato__allInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.Contato button{
+    background: var(--backgroudn-laranja);
+    color: var(--background-escuro);
+    border: none;
+    height: 45px;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.Contato_Button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Contato_Endereco{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    overflow-wrap: break-word;
+}
+
+
+
+.Contato button:hover{
+    background: var(--background-escuro);
+    color: var(--backgroudn-laranja);
+}
+
+
+/*ParteFinal do site */
+footer{
+    background: var(--background-escuro);
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+footer p{
+    color: var(--backgroudn-laranja);
+    font-size: large;
+}
+
+footer a {
+    color: var(--backgroudn-laranja);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

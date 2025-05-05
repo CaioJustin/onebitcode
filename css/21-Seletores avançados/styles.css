@@ -1,0 +1,51 @@
+li:nth-child(2) {
+    color: #f00;
+}
+
+li:nth-child(3n) {
+    color: rgb(23, 219, 98);
+}
+
+
+li:nth-child(5){
+    background: goldenrod;
+    color: gray;
+}
+
+
+li:hover {
+    background-color: #999;
+}
+
+li::before {
+    content: "(antes) ";
+    background: rgb(255, 1, 255);
+    color: white;
+  }
+  
+  li::after {
+    content: " (depois)";
+    background: purple;
+    font-size: larger;
+    font-weight: 800;
+    color: white;
+  }
+ 
+  
+  /*
+  
+  
+  li:first-child {
+    color: rgb(255, 174, 0);
+}
+
+li:last-child {
+    color: rgb(255, 0, 179);
+}
+
+
+li:not(:first-child) {
+    color: rgb(0, 255, 255);
+}
+
+*/
